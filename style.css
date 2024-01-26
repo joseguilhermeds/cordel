@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+:root{
+    --fonte1: Arial, Helvetica, sans-serif; 
+    --fonte2:'Passion One', sans-serif;
+    --fonte3:'Sriracha', 'cursive';
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+html, body {
+    min-height: 100%;
+    background-color: black;
+    font-family: var(--fonte1);
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+   padding-top: 50px;
+   font-variant: small-caps;
+   padding-bottom: 50px;
+   font-family: var(--fonte2);
+   font-size: 10vw;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom:10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3vw;
+    line-height: 1em;
+
+}
+
+section.normal{
+    background-color:white;
+    color: black;
+}
+ section.imagem{
+
+    background-color:rgb(80, 78, 78);
+    color: azure;
+
+ }
+ 
+ section.imagem > p {
+    display:inline-block;
+    background-color:rgba(0, 0, 0, 0.432);
+
+ }
+section#img01{
+   background-image: url('imagens/mãe.jpg');
+   background-position: right center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+  
+}
+section#img02{
+    background-image: url('imagens/dia-das-maes.webp'); 
+    background-position: right center;
+    background-attachment: fixed;   
+    background-repeat: no-repeat;
+}
+section p {
+    padding-bottom: 2em;
+
+ }
+footer {
+ text-align: center;
+ color: azure;
+ padding-top: 10px;
+ padding-bottom: 10px;
+
+}
+footer a {
+ color: azure;
+ background-color: black;
+ text-decoration: none;
+ font-weight: bold;
+ 
+}
+
+footer a:hover{
+    text-decoration: underline;
+    background-color: azure;
+    color: black;
+    
+
+}
